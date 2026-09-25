@@ -1,0 +1,1 @@
+"scoring" app — structural placeholder.

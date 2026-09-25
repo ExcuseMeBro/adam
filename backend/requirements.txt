@@ -1,0 +1,16 @@
+# 🐍 Python dependencies — sample list (no version pins for public safety)
+# Actual pinned versions live in the private main-be repo.
+
+Django>=4.2
+djangorestframework
+djangorestframework-simplejwt
+django-cors-headers
+django-filter
+psycopg2-binary
+celery
+redis
+gunicorn
+drf-yasg
+pillow
+python-decouple
+requests

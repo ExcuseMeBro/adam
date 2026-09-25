@@ -1,0 +1,35 @@
+{
+  "name": "adam-business-fe",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.x",
+    "@tanstack/react-router": "^1.x",
+    "antd": "^5.x",
+    "axios": "^1.x",
+    "dayjs": "^1.x",
+    "i18next": "^23.x",
+    "react": "^18.x",
+    "react-dom": "^18.x",
+    "react-google-recaptcha-v3": "^1.x",
+    "react-i18next": "^14.x",
+    "zustand": "^4.x"
+  },
+  "devDependencies": {
+    "@tanstack/router-vite-plugin": "^1.x",
+    "@types/react": "^18.x",
+    "@types/react-dom": "^18.x",
+    "@vitejs/plugin-react": "^4.x",
+    "typescript": "^5.x",
+    "vite": "^5.x",
+    "vitest": "^2.x"
+  }
+}

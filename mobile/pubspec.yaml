@@ -1,0 +1,55 @@
+# 📱 Flutter pubspec.yaml — sample structure placeholder
+# Real dependencies and version pins live in the private mobile repo.
+
+name: adam_mobile
+description: ADAM mobile application (Flutter)
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+  flutter: '>=3.22.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # 🧭 Navigation & routing
+  go_router: ^14.x
+
+  # 🌐 Network
+  dio: ^5.x
+  pretty_dio_logger: ^1.x
+
+  # 💾 Storage & security
+  flutter_secure_storage: ^9.x
+  shared_preferences: ^2.x
+
+  # 🔄 State management
+  flutter_riverpod: ^2.x
+
+  # 🌍 i18n
+  intl: ^0.19.0
+
+  # 📷 Camera / QR
+  mobile_scanner: ^5.x
+  image_picker: ^1.x
+
+  # 📦 Utilities
+  freezed_annotation: ^2.x
+  json_annotation: ^4.x
+  equatable: ^2.x
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.x
+  build_runner: ^2.x
+  freezed: ^2.x
+  json_serializable: ^6.x
+  mocktail: ^1.x
+
+flutter:
+  uses-material-design: true

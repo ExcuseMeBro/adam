@@ -1,0 +1,1 @@
+"common" app — structural placeholder.

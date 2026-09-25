@@ -1,0 +1,1 @@
+"clinic" app — structural placeholder.
