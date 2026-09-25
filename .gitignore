@@ -1,0 +1,42 @@
+# 🚫 Never commit secrets, env files, or build artifacts
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+
+# 📦 Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# 🏗️ Build output
+dist/
+build/
+.output/
+.nuxt/
+.next/
+.turbo/
+
+# 📝 Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+
+# 💻 IDE / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+
+# 🧪 Test / coverage
+coverage/
+.nyc_output/
+
+# 🔒 Lockfiles (kept per repo policy)
+# yarn.lock is intentionally NOT ignored — required for reproducible installs
