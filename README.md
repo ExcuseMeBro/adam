@@ -160,12 +160,11 @@ awwards/
 
 ## 🎯 Purpose
 
-| ✅ Intended for | ❌ Not intended for |
-| --- | --- |
-| Startup Base team verification | Production deployment |
-| Code-access proof for reviewers | Architectural overview of full platform |
-| Demonstrating team expertise | Backend / mobile / landing business logic |
-| Showing project structure | Reusable as a starter template |
+✅ **Intended for:**
+- Startup Base team verification
+- Code-access proof for reviewers
+- Demonstrating team expertise
+- Showing project structure
 
 ---
 
