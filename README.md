@@ -169,21 +169,6 @@ awwards/
 
 ---
 
-## 🔒 What's NOT in This Repo
-
-To keep the public sample safe and focused, the following are excluded:
-
-- ❌ `.env` files, secrets, API keys
-- ❌ Database migrations & schema dumps
-- ❌ Business logic, algorithms, scoring formulas
-- ❌ Internal documentation, ADRs, RFCs
-- ❌ CI/CD pipelines, deployment configs
-- ❌ Test fixtures with real user data
-- ❌ Landing site, QR generator, Telegram bots
-- ❌ Full mobile features, full backend views
-
----
-
 ## 👥 Team ADAM
 
 Built with ❤️ by **Team ADAM** — building a digital platform that connects
